@@ -49,3 +49,9 @@ input[type="text"] {
 input[type="password"] {
     color: green;
 }
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
