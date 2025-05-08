@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+.div-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 180px;
+    width: 60px;
+    border: 2px solid black;
+}
+
+div > .box1 {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+div > .box2 {
+    width: 50px;    
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+div > .box3 {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.box {
+    margin: 5px;
+    border: 2px solid black;
+}
+
