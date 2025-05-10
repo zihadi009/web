@@ -1,0 +1,39 @@
+.box {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: pink;
+}
+
+.one {
+    background-color: aquamarine;
+    position: relative;
+}
+
+.two {
+    background-color:darksalmon;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+    animation: move 2s alternate infinite;
+}
+
+.three {
+    background-color: darkseagreen;
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+
+@keyframes move {
+    0% {
+        z-index: 0;
+        width: 150px;
+        height: 150px;
+    }
+    100% {
+        z-index: 1;
+        width: 300px;
+        height: 300px;
+    }
+}
