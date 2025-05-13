@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+</head>
+
+<body class="container">
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand">Navbar</a>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <h1>Welcome to Bootstrap Buttons</h1>
+    <button class="btn btn-primary btn-lg">Primary</button>
+    <button class="btn btn-secondary btn-sm">Secondary</button>
+    <button class="btn btn-success">Success</button>
+    <button class="btn btn-danger btn-lg">Danger</button>
+    <button class="btn btn-warning btn-sm">Warning</button>
+    <button class="btn btn-info btn-xs">Info</button>
+    <button class="btn btn-light btn-lg">Light</button>
+    <button class="btn btn-dark btn-sm">Dark</button>
+    <button class="btn btn-link btn-xs">Link</button>
+
+    <h1>Welcome to Bootstrap Forms</h1>
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                    Check me out
+                </label>
+            </div>
+        </div>
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+    </form>
+
+    <h1>Welcome to Bootstrap Carousel</h1>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1744029829181-ad19c2ee248b?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://plus.unsplash.com/premium_photo-1747054588576-f6bd489758f0?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.unsplash.com/photo-1744132813623-5ce3c521eef4?q=80&w=736&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est repudiandae delectus, eos repellendus tempora, nemo
+        consequuntur sed voluptatem eaque ducimus inventore iure. Fugit temporibus, doloribus tempore nesciunt error
+        voluptates nam possimus magnam delectus? Laboriosam, illum eaque natus voluptas nulla labore quis ullam harum
+        dolor dolore, dolores veniam officiis? Dolores ab provident, delectus dignissimos deleniti hic quos voluptatem,
+        debitis natus tempora corrupti. Ab sit laudantium atque quasi deleniti veniam tempore quae distinctio
+        praesentium. Optio facere eveniet asperiores expedita quisquam beatae non rerum consectetur perferendis, atque
+        cumque, maxime blanditiis impedit corrupti libero repellendus? Amet libero optio reprehenderit nesciunt aut quia
+        nemo praesentium. Ab sunt illo sint numquam dignissimos laboriosam quisquam ad ratione exercitationem et,
+        quaerat fugiat vel libero repudiandae iure blanditiis iste at a voluptates, accusamus tenetur! Magni minima
+        officiis officia voluptas? Suscipit doloremque atque itaque quia sit adipisci dolor quisquam hic illum et magni,
+        cupiditate fuga, dolorem placeat maxime ea provident corrupti doloribus. Cumque temporibus repudiandae, sed eos
+        voluptatem ullam! Quibusdam veniam mollitia soluta laboriosam libero? Laboriosam officiis, unde ab vitae
+        dignissimos quibusdam natus est ipsum vero quae reiciendis sint aperiam? Earum harum voluptatibus voluptate
+        ipsam iusto nostrum! At, aperiam ducimus vel tempore laboriosam asperiores veniam animi corporis odio porro
+        cupiditate in iste. Natus minima nemo aliquam voluptatum autem tenetur tempore nulla cum nostrum distinctio nam
+        repellendus quo corporis maiores debitis, tempora laborum consequatur soluta! Enim vitae tempore soluta
+        veritatis aliquid doloremque expedita id beatae et doloribus corrupti quo suscipit provident tempora, illum,
+        earum voluptate laudantium saepe libero, reiciendis est nihil maiores itaque totam? Itaque nam suscipit iste
+        ducimus quis aperiam eos vel laboriosam, mollitia rerum atque eaque nemo incidunt ab, alias earum molestias
+        explicabo, neque eum? Totam accusamus possimus est numquam cumque labore molestias veniam animi, odio quas
+        voluptates eos quos voluptatem provident maiores, sint, autem architecto consequuntur reprehenderit earum
+        accusantium. Nulla quos obcaecati consequuntur recusandae tenetur suscipit dolores praesentium ipsa ipsum, aut
+        nemo quaerat temporibus id soluta facere dolorem rerum iure culpa cupiditate, tempore unde molestias odit eos
+        porro! Quaerat expedita quibusdam animi laborum exercitationem illum unde quos eius rem deserunt. Ratione natus
+        totam deleniti alias laboriosam facere optio omnis impedit culpa ipsum, velit commodi inventore consectetur
+        veritatis debitis, laborum saepe. Dolorum veritatis unde obcaecati quibusdam, quos porro voluptate esse nesciunt
+        expedita deleniti voluptates, dignissimos cumque perferendis culpa reiciendis repudiandae exercitationem eaque
+        facere quasi velit dolorem voluptatum non illum! Nemo exercitationem itaque, nihil ab fuga molestias? Ullam ex
+        minima nesciunt eius eos suscipit itaque veritatis? Sequi ipsa numquam temporibus repellat in adipisci eligendi
+        neque nisi odio, quos illo pariatur unde molestias aliquid quam soluta quasi at voluptate laborum vero esse
+        cupiditate quas laudantium! Vero modi quae earum ipsum et optio, cupiditate aut debitis similique at amet, ullam
+        porro aliquid magnam? Voluptatum, laboriosam ipsa voluptate reiciendis hic nulla assumenda nisi ab optio quae.
+        Laboriosam unde inventore deleniti blanditiis earum molestias dolorem voluptatem repudiandae dolores tempore
+        neque fuga totam tempora velit necessitatibus veritatis, vel placeat, natus, adipisci dicta commodi dolore
+        perspiciatis sunt tenetur. Quaerat minus expedita, soluta ullam quisquam illum voluptas?</p>
+
+        <h1>Welcome to bootstrap badge</h1>
+        <button type="button" class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              99+
+              <span class="visually-hidden">unread messages</span>
+            </span>
+          </button>
+
+          <h1>Welcome to bootstrap alert</h1>
+          <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">Well done!</h4>
+            <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+            <hr>
+            <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+          </div>
+
+          <div class="alert alert-primary" role="alert">
+            A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-secondary" role="alert">
+            A simple secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-success" role="alert">
+            A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-danger" role="alert">
+            A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-warning" role="alert">
+            A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-info" role="alert">
+            A simple info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-light" role="alert">
+            A simple light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-dark" role="alert">
+            A simple dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+
+          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
